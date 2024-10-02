@@ -1,7 +1,7 @@
 #!/bin/sh
 set -u
 APP=ryujinx
-SITE="Ryujinx/release-channel-master"
+SITE="getBoolean/release-channel-master"
 
 # CREATE DIRECTORIES
 [ -n "$APP" ] && mkdir -p "./$APP/tmp" && cd "./$APP/tmp" || exit 1
