@@ -1,7 +1,7 @@
 #!/bin/sh
 set -u
 APP=ryujinx
-SITE="Ryujinx/blob/a2c003501371463fd1f98d2e5a7602ae19c21d7c"
+SITE="Ryujinx/release-channel-master"
 
 # CREATE DIRECTORIES
 [ -n "$APP" ] && mkdir -p "./$APP/tmp" && cd "./$APP/tmp" || exit 1
